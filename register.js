@@ -10,7 +10,6 @@ function registerUser(){
     let userObject = {firstName, lastName, dateOfBirth, email, gender, password, date: new Date().toLocaleDateString()}
 
     arrayOfUsers.push(userObject)
-    // console.log(arrayOfUsers);
     displayUser()
 }
 function displayUser(){
